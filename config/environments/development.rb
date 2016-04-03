@@ -9,6 +9,10 @@ Rails.application.configure do
   # Do not eager load code on boot.
   config.eager_load = false
 
+  config.action_mailer.delivery_method = :test  # can set to :smtp if you want to send e-mails in dev
+  config.action_mailer.default_url_optinos = { :host => 'https://complete-ruby-on-rails-course-cerebus451.c9users.io' }
+
+
   # Show full error reports and disable caching.
   config.consider_all_requests_local       = true
   config.action_controller.perform_caching = false
