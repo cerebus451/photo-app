@@ -11,7 +11,7 @@ Rails.application.configure do
   config.eager_load = true
 
   config.action_mailer.delivery_method = :smtp
-  config.action_mailer.default_url_optinos = { :host => 'https://photoapp451.herokuapp.com/' }
+  config.action_mailer.default_url_options = { :host => 'https://photoapp451.herokuapp.com/' }
 
   # Full error reports are disabled and caching is turned on.
   config.consider_all_requests_local       = false
