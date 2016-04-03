@@ -25,6 +25,9 @@ gem 'devise'
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
 gem 'stripe'
+gem 'carrierwave' # image upload gem
+gem 'mini_magick' # based on ImageMagick library
+gem 'fog'         # cloud services library http://fog.io/
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
